@@ -26,7 +26,7 @@ opensips_cp_boxes:
     monit_port: '{{opensips_cp_monit_port}}'
     monit_user: admin
     monit_pass: admin
-    has_ssl: yes
+    monit_has_ssl: yes
     description: '{{ opensips_cp_host_description }}'
     assoc_id: 1
 opensips_cp_systems:
