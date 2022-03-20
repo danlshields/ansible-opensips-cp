@@ -22,7 +22,8 @@ opensips_cp_boxes:
     mi_port: '{{ opensips_mi_port }}'
     mi_root: '{{ opensips_mi_root }}'
     stats: '{{ opensips_cp_stats }}'
-    monit_host: '{{opensips_cp_monit_host}}:{{opensips_cp_monit_port}}'
+    monit_host: '{{opensips_cp_monit_host}}'
+    monit_port: '{{opensips_cp_monit_port}}'
     monit_user: admin
     monit_pass: admin
     has_ssl: yes
